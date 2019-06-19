@@ -145,7 +145,7 @@ listen:{[p]
     if[not 0N~f;-1 "Matched endpoint"];
     getres::$[ 0N~f ; jsonResponse "none" ;  f getreq ];
     -1 "Sending response";
-    -1 getres;
+    "";
     getres};
   .z.pp::{
     rawpostreq::x;
