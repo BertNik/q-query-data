@@ -1,3 +1,4 @@
+//lib provided by: https://github.com/robmoore-i/JsonRestApi
 $[()~key hsym `$"config.q";
   .config.frontendOrigin:"*";
   system "l config.q"];
